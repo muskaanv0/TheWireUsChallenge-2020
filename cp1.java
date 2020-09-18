@@ -1,5 +1,5 @@
 import java.util.Scanner;
-class day1{
+class cp1{
 public static Scanner scn=new Scanner(System.in);
 
 public static void solve(int[][] arr){
