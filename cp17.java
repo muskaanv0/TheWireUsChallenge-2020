@@ -17,8 +17,7 @@ public static void sortedSub(String str, String ans){
 public static void main(String[] args){
     //ENTER THE INPUT STRING
     String str=scn.nextLine();
-
-     // TO SORT THE INPUT STRING
+     // TO SORT THE INPUT STRING :
      // convert input string to char array 
      char tempArray[] = str.toCharArray();   
      // sort tempArray 
