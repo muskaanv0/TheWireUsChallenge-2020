@@ -7,9 +7,9 @@ public static void sortedSub(String str, String ans){
     if(str.length() ==0)
     return;
 
-    char ch=str.charAt(0);  //b
-    String roq=str.substring(1);  //c
-    // String ans="";
+    char ch=str.charAt(0);  
+    String roq=str.substring(1);  
+    
     System.out.print(ans + ch + " ");  
     sortedSub(roq, ans+ ch);
 }
